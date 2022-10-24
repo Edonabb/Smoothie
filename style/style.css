@@ -1,0 +1,216 @@
+
+    body {
+        background-image: url('img2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      
+    
+      }
+
+ 
+.header{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+ul{
+ 
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    list-style-type: none;
+}
+
+
+ul li{
+color: antiquewhite;
+gap: 3rem;
+
+}
+
+li a{
+    margin-right: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    
+}
+li a:hover{
+    color: black;
+    background-color: pink;
+}
+.titulli{
+    color: aliceblue;
+    justify-content: space-evenly;
+    margin-right: 28rem;
+    
+}
+.div1, .div2{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+
+}
+.img2{
+    width:50%;
+    margin-right: 20px;
+}
+.div-1{
+    width: 18%;
+    margin: 10px;
+    display: flex;
+    border: 2px solid rgb(200,200,200);
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    display: flex;
+    width: 35%;
+    margin-right: 20px;
+    align-items: center;
+    border-radius: 0rem;
+    box-shadow: rgb(0 0 0 / 30%) 0px 19px 20px 20px, rgb(0 0 0 / 22%) 0px 15px 12px;
+    justify-content: center;
+    align-content: center;
+    
+   
+}
+
+.cmimi1{
+    text-decoration: line-through;
+}
+h3{
+    color:antiquewhite;
+    align-items: center;
+}
+/* .products12{
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    padding: 5% 5% 5% 5%;
+} */
+input[type=text] {
+    width: 20%;
+    background: none;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    border: none;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+input[type="password" i] {
+    width: 20%;
+    background: none;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    border: none;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+input[type="button"]{
+    width: 21%;
+    padding: 1rem;
+    color: white;
+    background: pink;
+    border: none;
+    cursor: pointer;
+
+}
+input[type="button"]:hover{
+    background-color: yellowgreen;
+    color: blue;
+    transform: scale(1.1);
+
+}
+
+  .reni1, .reni2, .reni3, .reni4{
+    display: flex;
+    justify-content:space-between;
+
+    
+}
+
+
+.products12 {
+    width: 25%;
+    margin: 10px;
+    display: flex;
+    border: 5px solid #333;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+    form{
+        margin-top: -32%;
+        
+    }
+    .contain{
+        padding: 5% 5% 5% 5%;
+    }
+
+ .form1 label{
+    color: aliceblue;
+ }
+ /* .footer{
+    height:120px;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+ }
+ .footer1{
+    margin-bottom: 10px;
+    margin-right: 15rem;
+ }
+.footer2{
+    margin-left: 196px;
+    margin-top: -34px;
+}
+.footer3{
+    margin-top: 14px;
+    margin-right: 225px;
+    margin-left: 120px;
+} */
+.footer{
+    display: flex;
+    gap: 5rem;
+    padding: 2rem;
+    justify-content: space-between;
+    background-color: black;
+}
+.fa-brands{
+    color: white;
+    font-size: 30px;
+    margin: 0.5rem;
+}
+.flex-h3 .fa-brands:hover{
+    transform: scale(1.1);
+    background-color: pink;
+    color: black;
+    border-radius: 50%;
+   
+
+}
+.logo1{
+    width: 60px;
+    height: 60px;
+}
+.logo{
+    width: 36px;
+    height: 32px;
+}

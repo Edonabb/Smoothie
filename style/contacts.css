@@ -1,0 +1,161 @@
+body {
+    background-image: url('img2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  
+
+  }
+   
+.header{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+ul{
+ 
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    list-style-type: none;
+}
+
+
+ul li{
+color: antiquewhite;
+gap: 3rem;
+
+}
+
+li a{
+    margin-right: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    
+}
+li a:hover{
+    color: black;
+    background-color: pink;
+}
+.titulli{
+    color: aliceblue;
+    justify-content: space-evenly;
+    margin-right: 28rem;
+    
+}
+.logo{
+    width: 36px;
+    height: 32px;
+}
+.footer{
+
+    display: flex;
+    gap: 5rem;
+    padding: 2rem;
+    justify-content: space-between;
+    background-color: black;
+}
+.fa-brands{
+    color: white;
+    font-size: 30px;
+    margin: 0.5rem;
+}
+.flex-h3 .fa-brands:hover{
+    transform: scale(1.1);
+    background-color: pink;
+    color: black;
+    border-radius: 50%;
+   
+
+}
+.logo1{
+    width: 60px;
+    height: 60px;
+}
+h3{
+    color:aliceblue;
+}
+table,th,td{
+    width:40%;
+    border: solid 1px lightgreen;
+}
+ th,td{
+    height: 50px;
+    padding:10px;
+ }
+ td{
+    text-align: center;
+    vertical-align: middle;
+ }
+ tr:nth-child(even){
+    background-color: pink;
+ }
+ tr:hover{
+    background-color: lightblue;
+    color:white;
+ }
+ tr:nth-child(one){
+    background-color: rgb(200,200,200);
+ }
+ .form-flex{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    margin-bottom: 5rem;
+
+ }
+ .form1 label{
+    color: aliceblue;
+ }
+ input[type=text] {
+    width: 99%;
+    background: none;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    border: none;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+#smoothie {
+    background: none;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    border: none;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    width: 99%;
+}
+option{
+    color: pink;
+}
+input[type="button"]{
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    background: pink;
+    border: none;
+    cursor: pointer;
+
+}
+input[type="button"]:hover{
+    background-color: yellowgreen;
+    color: blue;
+    transform: scale(1.1);
+
+}
+table{
+    margin: 0 auto;
+    color: lightgoldenrodyellow;
+    font-weight: bold;
+}
